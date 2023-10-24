@@ -24,7 +24,7 @@ StockService stockService;
 
     @GetMapping("/")
     public String hello() {
-        return "hello from branch aycan";
+        return "hello from branch aycan \n hello from branch long";
     }
 
     @GetMapping(value = "/stock", produces = MediaType.APPLICATION_XML_VALUE)
